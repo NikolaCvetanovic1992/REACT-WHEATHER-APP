@@ -1,0 +1,22 @@
+.list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  background-color: rgb(222, 221, 221);
+  height: 20px;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.listItem:hover {
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(144, 132, 222);
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+}

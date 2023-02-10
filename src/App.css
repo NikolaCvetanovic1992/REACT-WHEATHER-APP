@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  flex-direction: column;
+}
+
+.main {
+  border-radius: 10px;
+  width: 800px;
+  height: 500px;
+}
